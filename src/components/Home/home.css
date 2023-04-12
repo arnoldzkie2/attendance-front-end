@@ -1,0 +1,63 @@
+@import '../../global.css';
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 4% 4% 4%;
+}
+
+.container .main-msg {
+    margin-top: 50px;
+    font-size: 1.3rem;
+    top: 20%;
+    right: 0;
+    color: var(--second1);
+}
+.container .main-msg span {
+    color: var(--second);
+    font-weight: bold;
+
+}
+.container .date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container .day {
+    font-size: 1.2rem;
+    margin-left: 9px;
+    color: var(--second1);
+}
+
+.container .time {
+    color: var(--second);
+    font-size: 3.5rem;
+}
+.container button {
+    width: 60%;
+    height: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--accent);
+    color: var(--main);
+    font-size: 2rem;
+    outline: none;
+    transition: 0.1s;
+    border: none;    
+}
+
+.container button i {
+    margin-left: 10px;
+}
+.container button:active {
+    transform: scale(0.95);
+    background-color: var(--main);
+    color: var(--accent);
+    border: 2px solid var(--accent);
+}

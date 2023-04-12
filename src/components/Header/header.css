@@ -1,0 +1,40 @@
+@import '../../global.css';
+
+.header {
+    display: flex;
+    z-index: 10;
+    background-color: var(--main);
+    top: 0;
+    left: 0;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    padding: 0 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header .logo {
+    color: var(--second);
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-size: 2.5rem;
+}
+.header .status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    color: var(--second);
+}
+
+.header .out i {
+    color: var(--second1);
+    font-size: 1.7rem;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.header .out i:active {
+    color: var(--accent);
+}
