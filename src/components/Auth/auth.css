@@ -1,0 +1,69 @@
+@import '../../global.css';
+
+.auth-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--main1);
+    gap: 30px;
+}
+
+.auth-container h1 {
+    color: var(--second);
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.auth {
+    background-color: var(--main1);
+    width: 85vw;
+    padding: 30px 20px;
+    max-width: 450px;
+    gap: 15px;
+    box-shadow: 0 0 1px var(--second);
+    display: flex;
+    flex-direction: column;
+}
+
+.auth .two {
+    display: flex;
+    gap: 10px;
+}
+
+.auth input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 0 0 1px var(--second);
+    padding: 12px;
+}
+
+.auth button {
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    background-color: var(--accent);
+    color: var(--main);
+    font-size: 1.7rem;
+    height: 45px;
+}
+
+.auth-footer {
+    text-align: center;
+    color: var(--second);
+}
+
+.auth-footer span {
+    color: var(--accent);
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
